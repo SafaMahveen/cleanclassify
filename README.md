@@ -29,6 +29,11 @@ Install it directly from PyPI:
 ```bash
 pip install cleanclassify
 ````
+If you've installed the package using pip install, and you have entry points set up (optional), you can also run it with:
+
+```bash
+cleanclassify
+```
 
 >  This will automatically install required dependencies:
 > `pandas`, `numpy`, `scikit-learn`, and `matplotlib`.
