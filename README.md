@@ -34,6 +34,24 @@ If you've installed the package using pip install, and you have entry points set
 ```bash
 cleanclassify
 ```
+### 🧠 Alternative Usage (Programmatically)
+
+If you prefer to use it in your own Python scripts or Jupyter notebooks, you can import and launch the GUI like this:
+
+```python
+from cleanclassify import gui
+gui.launch_gui()
+```
+
+Or access individual functions directly:
+
+```python
+from cleanclassify import clean_data, classify_cleaned
+```
+
+
+
+
 
 >  This will automatically install required dependencies:
 > `pandas`, `numpy`, `scikit-learn`, and `matplotlib`.
